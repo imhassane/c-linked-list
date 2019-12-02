@@ -24,7 +24,7 @@ int main() {
     insert_at(notes, 6, 87);
     insert_at(notes, 10, 35);
     printf("Size of the list: %d\n", get_size(notes));
-    printf("Element 2 must be equal to 35 & we find: %d\n", get(notes, 2));
+    printf("Element 2 must be equal to 40 & we find: %d\n", get(notes, 2));
 
     print_list(notes); puts("");
     remove_at(notes, 5);
