@@ -38,15 +38,15 @@ To remove an element from the list, you can use the **void remove_at(linked_list
 
 		linked_list * notes = new_linked_list(void);`
 
-		add(notes, 4);`	
-		add(notes, 10);`
+		add(notes, 4);
+		add(notes, 10);
 
-		// Printing the list`
-		print_list(notes);`
+		// Printing the list
+		print_list(notes);
 
-		remove_at(notes, 1);`
-		// Destroying the list at the end`
-		free_list(notes);`
+		remove_at(notes, 1);
+		// Destroying the list at the end
+		free_list(notes);
 		
-		return 0;`
+		return 0;
 }
